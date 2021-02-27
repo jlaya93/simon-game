@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #fcd1d1;
+}
+
+hr{
+  width:15%; border-style: dotted none none none;
+  border-color: #799351; border-width: 5px;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+a:hover{
+  cursor: pointer; color:#f0a500;
+}
+
+a:link{
+  color: purple;
+}
+
+a:visited{
+  color: #28527a;
+}
+
+#level-title {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 3rem;
+  margin:  5%; margin-top: 3%; margin-bottom: 1.5%;
+  color: #28527a;
+}
+
+.simon{
+  font-family: 'PT Serif', serif; font-size: 3rem;
+  color: #822659; margin-bottom:0;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.btn:hover{
+  cursor:pointer;
+}
+
+.game-over {
+  background-color: #d3e0dc;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #beca5c;
+}
+
+.green {
+  background-color: #f14668;
+}
+
+.blue {
+  background-color: #23689b;
+}
+
+.yellow {
+  background-color: #ffcc29;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.base{
+  padding:2.5%;
+}
+
+.name{
+  font-family: 'Dancing Script', cursive; font-size: 1.3rem;
+}
+
+.simon:hover{
+  color:#394867;
+}
